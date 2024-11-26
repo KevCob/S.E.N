@@ -1,0 +1,41 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20240825",
+    "url": "http://www.cubadebate.cu/noticias/2024/08/25/union-electrica-preve-471-mw-de-deficit-en-horario-nocturno-de-maxima-demanda/", 
+    "prediction": {
+        "availability": "2499",  
+        "demand_max": "2900",
+        "impact": "471",
+        "deficit": "401",
+        "backup": "0"
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": "2400", 
+        "demand": "2285", 
+        "deficit": "0" 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "EG":["1", "2"],
+                "LR":["2"],
+                "AM":["5"]
+            },
+            "maintenance": {},
+            "limitation": "432"
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "46",
+        "total_impact": "214",
+        "combustible_problem": "true",
+        "ships_with_problems": "0",
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "24",
+        "max": "407",
+        "max_hour": "20:40"
+    }
+}

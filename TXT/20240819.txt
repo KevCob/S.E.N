@@ -1,0 +1,41 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20240819",
+    "url": "http://www.cubadebate.cu/noticias/2024/08/19/pronostica-la-une-un-deficit-de-540-mw-en-horario-de-maxima-demanda/", 
+    "prediction": {
+        "availability": "2580",  
+        "demand_max": "3050",
+        "impact": "540",
+        "deficit": "470",
+        "backup": "0"
+    },
+    "morning_info": {
+        "time": "07:00", 
+        "availability": "2480", 
+        "demand": "2340", 
+        "deficit": "0" 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "EG":["1"],
+                "LR":["2"]
+
+            },
+            "maintenance": {},
+            "limitation": "528"
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "35",
+        "total_impact": "185",
+        "combustible_problem": "true",
+        "ships_with_problems": "0",
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "24",
+        "max": "337",
+        "max_hour": "20:40"
+    }
+}
